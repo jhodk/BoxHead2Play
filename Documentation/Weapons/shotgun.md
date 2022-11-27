@@ -20,7 +20,7 @@ Then two more shots are added in the target direction of fire, ± 1.25 * (WideSh
 | Wide Shot | 1 | 5 degrees (±2.5) |
 | Wider Shot | 2 | 7.5 degrees (±3.75) |
 
-If the shotgun has been upgraded above the default level, then another two shots are added with a doubled spread. A "delay" argument is also set to true.
+If the shotgun has been upgraded above the default level, then another two shots are added with a doubled spread. A "delay" argument is also set to true for this volley of two bullets.
 
 | Shotgun Type | WideShot value | Spread in degrees of 4th and 5th shots |
 | --- | --- | --- |
