@@ -28,3 +28,5 @@ The Devil count (max devils alive at once) starts at 0. After wave 1, this value
 The total Devils spawned per wave starts at 0. After wave 1, this value is set to 1. Each wave after this, the total value is incremented by 0.25, and the floor value is taken to be the total number of devils. There is no limit imposed on this number.
 
 The Devil Speed Up property is set the same as the Zombie Speed Up property, i.e. the minimum of 5 or (1 + waveNumber/10).
+
+Can't work out when speed up is applied, maybe I have a false memory of "Speed Up" appearing in the kill log.
