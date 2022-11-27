@@ -1,10 +1,10 @@
 # UZI
-
+Unlocked at combo 5.
 - NameID: uzi
 - Name: UZI
 - ShortName: UZI
-- FireRate: 4
-- TotalAmmo: 100
+- FireRate: 4.
+- TotalAmmo: 100.
 - Damage: 35
 - Auto: true
-- Range: 8
+- Range: 8.
