@@ -11,6 +11,7 @@ The speed of Zombies, and the speed, fire rate and attack speed of Devils are up
 
 A formula determines the number of zombies and devils that will spawn in each wave.
 
+## Zombies
 The zombie spawn rate starts at the FPS count, which appears to be 25. For each wave after this, the rate is decremented by 1 until it reaches 1 (so a zombie is spawned each ?frame?).
 
 The zombie count (max zombies alive at one time per wave) starts at 10, and increases by 5 each wave until a maximum of 60 is reached.
@@ -18,3 +19,12 @@ The zombie count (max zombies alive at one time per wave) starts at 10, and incr
 The total zombies spawned per wave starts at 10 and increases by 5 each wave thereafter.
 
 The Zombie Speed Up property value is equal to the minimum of 5 or (1 + waveNumber/10). I am not sure how often this speed increase is applied.
+
+## Devils
+The Devil spawn rate starts at 10 * FPS (25). Each wave after this value is decremented by 1, and then set to the maximum of FPS (25) or the current value.
+
+The Devil count (max devils alive at once) starts at 0. After wave 1, this value is set to 1. Each wave after this, the count is incremented by 0.3, and set to a minimum of 5 and the calculated value. The count for the wave is set to the floor (integer part) of the calculated value.
+
+The total Devils spawned per wave starts at 0. After wave 1, this value is set to 1. Each wave after this, the total value is incremented by 0.25, and the floor value is taken to be the total number of devils. There is no limit imposed on this number.
+
+The Devil Speed Up property is set the same as the Zombie Speed Up property, i.e. the minimum of 5 or (1 + waveNumber/10).
