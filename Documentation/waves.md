@@ -29,4 +29,4 @@ The total Devils spawned per wave starts at 0. After wave 1, this value is set t
 
 The Devil Speed Up property is set the same as the Zombie Speed Up property, i.e. the minimum of 5 or (1 + waveNumber/10).
 
-Can't work out when speed up is applied, maybe I have a false memory of "Speed Up" appearing in the kill log.
+I guess speed up is applied every wave? Maybe I have a false memory of "Speed Up" appearing in the kill log but can't find any evidence of it on youtube.
