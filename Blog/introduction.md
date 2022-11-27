@@ -8,8 +8,10 @@
 Boxhead 2Play was one of my favourite flash games growing up. Since flash player has been discontinued, I would like to bring the game into the modern era and allow a new generation to experience it.
 
 When you go to crazy monkey games and try to play the game, this is what the screen looks like after selecting a level.
-![image](https://user-images.githubusercontent.com/7433327/204144280-010bd1a1-e4b1-4d79-bc6e-05dee3fff7f2.png)
-Sure, downloading some old version of flash player which is riddled with security issues is an option, but I think most people wouldn't even bother.
+<img src="https://user-images.githubusercontent.com/7433327/204144280-010bd1a1-e4b1-4d79-bc6e-05dee3fff7f2.png" width=50%>
+
+
+Sure, downloading some old version of flash player which is riddled with security issues is an option to play today, but I think most people wouldn't bother. I want to make this game playable in browser, true to the original... this is starting to sound like a list!
 
 ## Objectives
 - Playable in browser without excessive plugins
